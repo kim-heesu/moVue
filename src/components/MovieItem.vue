@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ movie.Title }}
+    {{ movie.imdbID }}
   </div>
 </template>
 <script>
