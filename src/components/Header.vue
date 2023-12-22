@@ -3,7 +3,7 @@
     <Logo />
     <div class="nav nav-pills">
       <div class="nav-item" v-for="nav in navigations" :key="nav.name">
-        <router-link class="nav-link" :to="nav.href" active-class="active">{{ nav.name }}</router-link>
+        <router-link class="nav-link" :to="nav.href" active-class="active" :class="{active: isMatch(nav.path)}">{{ nav.name }}</router-link>
       </div>
     </div>
   </header>
@@ -24,13 +24,21 @@ export default{
         },
         {
           name:"Movie",
-          href: '/Movie/tt4520988'
+          href: '/Movie/tt4520988',
+          path: /^\/movie/ //'/movie'
         },
         {
           name:"About",
           href: '/About'
         },
       ]
+    }
+  },
+  methods:{
+    isMatch(path){
+      if(!path) return false
+      console.log(this.$route)
+      return path.test(this.$route.fullPath)
     }
   }
 }
