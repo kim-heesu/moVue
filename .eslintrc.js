@@ -24,7 +24,9 @@ module.exports = {
         component: 'always'
       },
       svg: 'always',
-      math: 'always'
+      math: 'always',
+      indent: [2, "tab"],
+      "no-tabs": 0,
     }],
     'vue/html-closing-bracket-newline': ['error', {
       singleline: 'never',
