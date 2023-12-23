@@ -14,7 +14,6 @@
 </template>
 
 <style lang="scss" scoped>
-@import "~/scss/main";
 .container{
   margin-top: 40px;
 }

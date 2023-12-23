@@ -2,13 +2,13 @@ import axios from 'axios';
 
 // 중복되는 내용 제거
 import _uniqBy from 'lodash/uniqBy';
-
+const _defaultMsg = 'Search for the movie title!'
 export default{
     namespaced: true,
     state: () => {
         return{
             movies: [],
-            message:'Search for the movie title!',
+            message:_defaultMsg,
             loading: false,
             theMovie: {}
         }
@@ -22,6 +22,8 @@ export default{
         },
         resetMovies(state){
             state.movies = []
+            state.message = _defaultMsg
+            state.loading = false
         }
     },
     actions:{

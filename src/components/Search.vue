@@ -38,6 +38,23 @@
     font-weight: 700;
     flex-shrink: 0; //flex가 하위요소의 넓이를 자동으로 줄이는걸 방지
   }
+  @include media-breakpoint-down(lg){
+    display:block;
+    input{
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .selects{
+      margin-right: 0;
+      margin-bottom: 10px;
+      select{
+        width:100%;
+      }
+    }
+    .btn{
+      width: 100%;
+    }
+  }
 }
 </style>
 
