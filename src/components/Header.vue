@@ -1,5 +1,5 @@
 <template>
-  <header>test
+  <header>
     <Logo />
     <div class="nav nav-pills">
       <div class="nav-item" v-for="nav in navigations" :key="nav.name">
