@@ -1,7 +1,7 @@
 <template>
   <header>
     <Logo />ㅇㅇ
-    <div class="nav nav-pills">ㅇㅇ
+    <div class="nav nav-pills">
       <div class="nav-item" v-for="nav in navigations" :key="nav.name">
         <router-link class="nav-link" :to="nav.href" active-class="active" :class="{active: isMatch(nav.path)}">{{ nav.name }}</router-link>
       </div>
