@@ -22,11 +22,15 @@
       margin-right: 0;
     }
   }
+  .form-control{
+    border: 1px solid $gray-200;
+  }
   .selects{
     display: flex;
     select{
       width: 120px;
       margin-right: 10px;
+      border: 1px solid $gray-200;
       &:last-child{
         margin-right: 0;
       }
