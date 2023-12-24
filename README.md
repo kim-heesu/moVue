@@ -14,8 +14,9 @@ https://animated-tarsier-ae3853.netlify.app/#/
 ## 기능
 ```
 * Vue Router
-
+    
 * Vuex
+    ㄴ Vuex helpers
     ㄴ State를 변경해주는 mutations 내 공통함수 (updateState)
     ㄴ Loading
 
