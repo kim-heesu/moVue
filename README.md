@@ -30,6 +30,8 @@ https://animated-tarsier-ae3853.netlify.app/#/
     ㄴ 비동기 예외처리
 
 * Netlify Serverless Functions
+    ㄴ 신기하다!
+    ㄴ https://animated-tarsier-ae3853.netlify.app/.netlify/functions/hello
 
 그외 등등..
 ```
