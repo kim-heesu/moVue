@@ -1,9 +1,7 @@
 # Vue로 만든 영화검색 사이트
 
 ## 사이트주소
-```
 https://animated-tarsier-ae3853.netlify.app/#/
-```
 
 ## 페이지 구성
 ```
