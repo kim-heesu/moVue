@@ -1,2 +1,2 @@
 [build]
-    function = "my_functions"
+    functions = "functions"
