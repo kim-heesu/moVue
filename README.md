@@ -35,7 +35,7 @@ https://animated-tarsier-ae3853.netlify.app/#/
 그외 등등..
 ```
 
-# 배포
+## 배포
 ```
 💖 Netlify 💖
 ```
