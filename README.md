@@ -1,5 +1,12 @@
 # Vue로 만든 영화검색 사이트
 
+```
+npm run dev:webpack > localhost:8079
+webpack을 통해 열리는 개발서버
+
+npm run dev > localhost:8080
+netlify 개발서버
+```
 ## 사이트주소
 https://animated-tarsier-ae3853.netlify.app/#/
 
