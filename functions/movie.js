@@ -2,7 +2,7 @@ const axios = require('axios')
 
 exports.handler = async function (event){
     console.log(event)
-    const payload = Json.parse(event.body)
+    const payload = JSON.parse(event.body)
     const {title,type,year,page,id} = payload
     const OMDB_API_KEY = 'c4603bb9'
     const url = id 
