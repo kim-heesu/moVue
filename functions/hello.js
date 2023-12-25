@@ -12,8 +12,6 @@ exports.handler = async function(event, context){
             age: 100,
             email: "heesu@naver.com"
         }) 
-
-        
     }
 }
 
